@@ -19,9 +19,7 @@ body,#content{
 #site-nav,#footer{ 
 	font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
 }
-#site-nav, #site-nav .sn-container{
-	height: 32px;
-}
+#site-nav, #site-nav .sn-container{height: 32px;}
 #site-nav{
 	width: auto;
 	background: #f2f2f2;
@@ -34,9 +32,42 @@ body,#content{
 	height: 130px;
 	background: #fff;
 }
-#site-nav .sn-container{
-	position: relative;
-}
+#site-nav .sn-container{position: relative;}
+#site-nav .sn-container,#site-nav a{color: #999;}
 #sn-bd{
 	width: 1230px;
+	margin: auto;
 }
+#site-nav .sn-logoin-info{
+	display: inline-block;
+}
+#site-nav .sn-logoin-info,#site-nav .sn-quick-menu{
+	height: 32px;
+	line-height: 32px;
+}
+#site-nav .sn-quick-menu{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#site-nav .sn-quick-menu li{
+	float: left;
+	position: relative;
+}
+#site-nav .sn-login,#site-nav .sn-register,#site-nav .sn-mytaobao,#site-nav .sn-mybrand,#site-nav .sn-cart,#site-nav .sn-favorite,#site-nav .sn-mobile,#site-nav .sn-home,#site-nav .sn-seller,#site-nav .sn-sitemap{
+	padding: 0 10px;
+}
+#site-nav .sn-login{padding-left: 20px;}
+#site-nav .sn-menu{position: relative;}
+#site-nav .sn-favorite .menu-hd{padding-right: 14px;}
+#site-nav .menu-hd b{
+	position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-style: solid dashed dashed;
+    border-color: #999 transparent transparent;
+    top: 15px;
+    right: -8px;
+}
+#site-nav .sn-favorite .menu-hd b{right:0px}
